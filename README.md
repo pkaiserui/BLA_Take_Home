@@ -27,13 +27,13 @@ Install the following to run:
 * Numpy
 
 ### How to run
-cd into the directory with the files
+cd into the directory with the files  
 then run with python main.py and follow the prompts
 
 
 ## Problem-Solving Process
 
-This problem reminded me of an island search algorithm. After reviewing the problem, I thought a BFS would also work, but with python there is a limit to the number of recursive callbacks that can be done, so implementing it iteratively was the way I went.
+This problem reminded me of an island search algorithm. After reviewing the problem, I thought a BFS would work, but with python there is a limit to the number of recursive callbacks that can be done, so implementing it iteratively was the way I went.
 
 ### Breadth-First Search
 1. Create a 2d array with all the values being 0
