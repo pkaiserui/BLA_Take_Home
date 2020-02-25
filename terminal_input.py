@@ -8,7 +8,7 @@ class Terminal_Input:
         "Example: 400, 600 \n" \
         "then hit enter"
 
-    barren_land_message = \
+    land_message = \
         "Please enter for coordinates for the barren land\n" \
         "Example: 0 292 399 307 \n" \
         "Once you are done, type \"Done\""\
@@ -37,7 +37,7 @@ class Terminal_Input:
         return x, y
 
     def get_barren_coordinates(self) -> list:
-        print(self.barren_land_message)
+        print(self.land_message)
         coordinates = []
         while True:
             response = input()
